@@ -21,7 +21,7 @@ It is based on Trolltech's Qt toolkit.
 
 %build
 export CFLAGS="$RPM_OPT_FLAGS"
-./configure --prefix=%{_prefix}
+%configure
 export QTDIR=%{_libdir}/qt3
 make
 
