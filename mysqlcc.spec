@@ -21,7 +21,7 @@ It is based on Trolltech's Qt toolkit.
 
 %build
 export CFLAGS="$RPM_OPT_FLAGS"
-%configure
+./configure --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib --libexecdir=/usr/lib --localstatedir=/var --sharedstatedir=/usr/com --mandir=/usr/share/man --infodir=/usr/share/info --x-includes=/usr/include --x-libraries=/usr/lib
 export QTDIR=%{_libdir}/qt3
 make
 
