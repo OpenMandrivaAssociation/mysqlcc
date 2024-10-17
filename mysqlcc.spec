@@ -6,7 +6,7 @@ Version:	1.0.1
 License:	GPL
 Group:		Databases
 Summary:	MySQL Control Center
-URL:		http://www.trellik.com/
+URL:		https://www.trellik.com/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 BuildRequires:	qt3-devel mysql-devel patch imagemagick
 Release:	%mkrel 1
