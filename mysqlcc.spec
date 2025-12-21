@@ -8,6 +8,11 @@ Group:		Databases
 Summary:	MySQL Control Center
 URL:		https://www.trellik.com/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	qt3-devel mysql-devel patch imagemagick
 Release:	%mkrel 1
 Source:		%{name}-%{version}-src.tar.bz2
