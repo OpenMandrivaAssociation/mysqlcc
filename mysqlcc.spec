@@ -14,7 +14,7 @@ BuildRequires:	libtool-base
 BuildRequires:	slibtool
 BuildRequires:	make
 BuildRequires:	qt3-devel mysql-devel patch imagemagick
-Release:	%mkrel 1
+Release:	2
 Source:		%{name}-%{version}-src.tar.bz2
 
 %description
